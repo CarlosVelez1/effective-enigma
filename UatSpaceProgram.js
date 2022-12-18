@@ -7,8 +7,6 @@ function countDown()
         document.getElementById("countdownTimer").innerHTML = currTime;
         currTime = currTime - 1;
     }, 1000*i);
+    }
+    setTimeout(function() { alert("Countdown Has Reached The Halfway Point"); }, 5001);
 }
-    }
-    if(i==0){
-        alert("Another Successful Launch")
-    }
