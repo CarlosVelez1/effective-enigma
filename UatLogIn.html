@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>UAT Log In</title>
+    <link rel="stylesheet" type="text/css" href="UatLogIn.css">
+    <script src = "UatLogIn.js"></script>
+</head>
+<body>
+    <center>
+        <h1>Please Log In To Have Access To the Site</h1>
+        <!-- Just a simple image to make things more interesting-->
+    <img align = "center" src = UAT_Shield_Logo.png> 
+
+<br>
+            <!--where the text should show up when a failed log in attempt was made-->
+        <p id = UserInput class = "UatLogIn"></p>
+<br>
+        <!-- The areas where the user has to input data to get into the next site-->
+    <form id = "Credentials" onsubmit = "return false">
+        First Name:<input type = "text" id = "First"/>
+        <br>
+        Last Name:<input type = "text" id = "Last"/>
+        <br>
+        Password:<input type = "number" id = "Pass"/>
+        <br>
+        <!--this button will make sure that everything was inputed correctly-->
+        <input type = "submit" onClick = "CheckCred()"/>
+    </center>
+    </form>
+</body>
+</html>
