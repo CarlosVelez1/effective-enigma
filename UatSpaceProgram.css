@@ -8,3 +8,17 @@ border-color:rgb(138, 14, 14);
 body{
     background-image: linear-gradient(red,yellow);
 }
+#Play{
+    width: 85px;
+    height:50px;
+    border-radius:60px;
+    background-color:orangered;
+    border-color:rgb(228, 180, 25);
+}
+#Stop{
+    width: 85px;
+    height:50px;
+    border-radius:60px;
+    background-color:orangered;
+    border-color:rgb(228, 180, 25);
+}
